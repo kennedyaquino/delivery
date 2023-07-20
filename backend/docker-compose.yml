@@ -10,7 +10,7 @@ services:
 
   server:
     container_name: server-delivery
-    image: kennedyaquino/delivery-server
+    image: kennedyaquino/delivery-server:1.0
     environment:
       DB_HOST: database
     ports:
