@@ -7,7 +7,7 @@ function NavBar() {
     <nav className="main-navbar">
       <Logo />
       <Link to="/" className="logo-text">
-        DS Delivery
+        Delivery
       </Link>
     </nav>
   );
