@@ -17,7 +17,6 @@
     <h2 id="projeto-1">💻 Projeto</h2>
     <p>O DS Delivery é uma aplicação de entregas de produtos alimentícios.</p>
     <br />
-    <p>Site do projeto: <a href="https://sds2-kennedy.netlify.app/" target="_blank">https://sds2-kennedy.netlify.app/</a></p>
     <h2 id="tecnologias-1">🚀 Tecnologias</h2>
     <ol>
       <li>Java</li>
