@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: deliveryfood
+
+  server:
+    image: kennedyaquino/delivery-server:1.0
+    environment:
+      DB_HOST: database
+    ports:
+      - 8080:8080
+
+  web:
+    image: kennedyaquino/web-delivery:1.0
+    environment:
+      - REACT_APP_API_URL=server
+      - REACT_APP_ACCESS_TOKEN_MAPBOX=pk.eyJ1Ijoia2VubmVkeXM5NCIsImEiOiJja2c2eHU4ZmIwMXp0MnBwbXgzN3czeWljIn0.hylUv2zdv2dA2akv_2j27g
+    ports:
+      - 3000:3000
