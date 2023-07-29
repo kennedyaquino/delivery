@@ -1,36 +1,30 @@
-<h2><center>Delivery</center></h2>
-<center align="center">
-    <a href="#projeto">Projeto |</a>
-    <a href="#tecnologias">Tecnologias |</a>
-    <a href="#prerequisitos">Pré Requisitos |</a>
-    <a href="#instalacao">Instalação |</a>
-    <a href="#license">Licença </a>
-</center>
-<center><img src="https://img.shields.io/github/license/kennedyaquino/nlw03-happy" alt="license" /></center>
+<div align="center"><h2>Delivery</h2></div>
+<div align="center"><img src="https://img.shields.io/github/license/kennedyaquino/nlw03-happy" alt="license" /></div>
 <br>
 
 ![Imagem da tela inicial](/front-web/public/screen-home.png)
 
-### 💻 Projeto {#projeto}
+### 💻 Projeto
 
 O Delivery é uma aplicação de entregas de produtos alimentícios.
 
-### 🚀 Tecnologias {#tecnologias}
+### 🚀 Tecnologias
 
 - Java
 - Spring Boot
+- PostgreSQL
 - Typescript
 - React
 - React Native
 - Expo
 - Docker
 
-### 📋 Pré-requisitos {#prerequisitos}
+### 📋 Pré-requisitos
 
 - Docker
 - Docker Compose
 
-### 🔧 Instalação {#instalacao}
+### 🔧 Instalação
 
 1. Clone este repositório:
 
@@ -48,6 +42,6 @@ docker compose up
 http://localhost:3000
 ```
 
-### 📝 Licença {#license}
+### 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
