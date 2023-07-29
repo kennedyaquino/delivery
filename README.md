@@ -1,33 +1,53 @@
-<div>
-  <div align="center">
-    <h1>DS Delivery</h1>
-    <a href="#projeto-1">Projeto |</a>
-    <a href="#tecnologias-1">Tecnologias |</a>
-    <a href="#license-1">Licença </a>
-    <br>
-    <br>
-    <img src="https://img.shields.io/github/license/kennedyaquino/nlw03-happy" alt="license" />
-    <br>
-    <br>
-  </div>
-  <div align="center">
-    <img src="https://github.com/kennedyaquino/dsdelivery-sds2/blob/main/front-web/public/home-sds2.png" alt="dsdelivery" height="500" />
-  </div>
-  <div>
-    <h2 id="projeto-1">💻 Projeto</h2>
-    <p>O DS Delivery é uma aplicação de entregas de produtos alimentícios.</p>
-    <br />
-    <h2 id="tecnologias-1">🚀 Tecnologias</h2>
-    <ol>
-      <li>Java</li>
-      <li>Spring Boot</li>
-      <li>Heroku</li>
-      <li>React</li>
-      <li>React Native</li>
-      <li>Expo</li>
-      <li>TypeSript</li>
-    </ol>
-    <h2 id="license-1">📝 Licença</h2>
-    <p>Esse projeto está sob a licença MIT. Veja o arquivo <a href="https://github.com/kennedyaquino/dsdelivery-sds2/blob/main/LICENSE">LICENSE</a> para mais detalhes.</p>
-  </div>
-</div>
+<h2><center>Delivery</center></h2>
+<center align="center">
+    <a href="#projeto">Projeto |</a>
+    <a href="#tecnologias">Tecnologias |</a>
+    <a href="#prerequisitos">Pré Requisitos |</a>
+    <a href="#instalacao">Instalação |</a>
+    <a href="#license">Licença </a>
+</center>
+<center><img src="https://img.shields.io/github/license/kennedyaquino/nlw03-happy" alt="license" /></center>
+<br>
+
+![Imagem da tela inicial](/front-web/public/screen-home.png)
+
+### 💻 Projeto {#projeto}
+
+O Delivery é uma aplicação de entregas de produtos alimentícios.
+
+### 🚀 Tecnologias {#tecnologias}
+
+- Java
+- Spring Boot
+- Typescript
+- React
+- React Native
+- Expo
+- Docker
+
+### 📋 Pré-requisitos {#prerequisitos}
+
+- Docker
+- Docker Compose
+
+### 🔧 Instalação {#instalacao}
+
+1. Clone este repositório:
+
+```
+git clone https://github.com/kennedyaquino/dsdelivery-sds2.git
+```
+
+2. Na pasta raiz do projeto execute o docker compose na linha de comando:
+```
+docker compose up
+```
+
+3. Abra seu navegador e digite:
+```
+http://localhost:3000
+```
+
+### 📝 Licença {#license}
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
