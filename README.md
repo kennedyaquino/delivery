@@ -29,7 +29,7 @@ O Delivery é uma aplicação de entregas de produtos alimentícios.
 1. Clone este repositório:
 
 ```
-git clone https://github.com/kennedyaquino/dsdelivery-sds2.git
+git clone https://github.com/kennedyaquino/delivery.git
 ```
 
 2. Na pasta raiz do projeto execute o docker compose na linha de comando:
